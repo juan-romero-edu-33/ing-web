@@ -1,0 +1,118 @@
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #001403;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.button-google {
+    width: 80%;
+    color: rgb(41, 41, 41);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button-google:hover {
+    background-color: #dddddd;
+}
+
+.login-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #4285F4;
+}
+
+.container-img{
+    flex: 1;
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden; 
+}
+
+.right-side {
+    height: 100%;
+    width: 100%;
+    background-image: url('./static/LoginImg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.btn-login {
+    background-color: #2E6600;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-login:hover {
+    background-color: #1f4600;
+}
+
+.container-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
